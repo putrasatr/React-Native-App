@@ -1,0 +1,785 @@
+                    [
+                        {
+                            "harga_asli": 10000,
+                            "harga_diskon": 12000,
+                            "id ": 1,
+                            "id_makanan": 1,
+                            "isBtnSave": false,
+                            "nama_makanan": "Nasi Goreng",
+                            "sent": true,
+                            "status_makanan": true
+                        },
+                        {
+                            "harga_asli": 5000,
+                            "harga_diskon": 9000,
+                            "id ": 2,
+                            "id_makanan": 2,
+                            "isBtnSave": false,
+                            "nama_makanan": "Bakso Goreng",
+                            "sent": true,
+                            "status_makanan": true
+                        },
+                        {
+                            "harga_asli": 10000,
+                            "harga_diskon": 15000,
+                            "id ": 3,
+                            "id_makanan": 3,
+                            "isBtnSave": false,
+                            "nama_makanan": "nasi goreng mentol ayam",
+                            "sent": true,
+                            "status_makanan": null
+                        },
+                        {
+                            "harga_asli": 12000,
+                            "harga_diskon": 8000,
+                            "id ": 4,
+                            "id_makanan": 4,
+                            "isBtnSave": false,
+                            "nama_makanan": "Bakmi Gedeg",
+                            "sent": true,
+                            "status_makanan": true
+                        },
+                        {
+                            "created_at": "2021-02-19T12:51:09.178Z",
+                            "deskripsi": "Bebek",
+                            "endDate": "2021-02-19T16:41:55.000Z",
+                            "harga_diskon": 12000,
+                            "harga_normal": 16000,
+                            "id_iklan": 10,
+                            "id_makanan": "1613738858074",
+                            "isBtnSave": false,
+                            "jlhItems": 4,
+                            "nama_makanan": "Mie Aceh",
+                            "nama_merchant": "Senja Tea ID",
+                            "sent": true,
+                            "startDate": "2021-02-19T14:41:55.000Z",
+                            "status": true
+                        },
+                        {
+                            "created_at": "2021-02-19T12:24:45.728Z",
+                            "deskripsi": "sosis",
+                            "endDate": "2021-02-19T16:18:43.000Z",
+                            "harga_diskon": 11000,
+                            "harga_normal": 14000,
+                            "id_iklan": 9,
+                            "id_makanan": "1613737412555",
+                            "isBtnSave": false,
+                            "jlhItems": 3,
+                            "nama_makanan": "Mie Goreng",
+                            "nama_merchant": "Senja Tea ID",
+                            "sent": true,
+                            "startDate": "2021-02-19T14:18:43.000Z",
+                            "status": true
+                        },
+                        {
+                            "created_at": "2021-02-19T12:14:23.145Z",
+                            "deskripsi": "Ayam Bakar",
+                            "endDate": "2021-02-19T15:53:25.000Z",
+                            "harga_diskon": 1200,
+                            "harga_normal": 15000,
+                            "id_iklan": 8,
+                            "id_makanan": "1613731128167",
+                            "isBtnSave": false,
+                            "jlhItems": 4,
+                            "nama_makanan": "Thai Tea",
+                            "nama_merchant": "Senja Tea ID",
+                            "sent": true,
+                            "startDate": "2021-02-19T13:53:25.000Z",
+                            "status": true
+                        },
+                        {
+                            "created_at": "2021-02-19T11:04:58.351Z",
+                            "deskripsi": "mie",
+                            "endDate": "2021-02-19T16:43:09.000Z",
+                            "harga_diskon": 1000,
+                            "harga_normal": 12000,
+                            "id_iklan": 7,
+                            "id_makanan": "1613731423003",
+                            "isBtnSave": false,
+                            "jlhItems": 4,
+                            "nama_makanan": "Boba",
+                            "nama_merchant": "Senja Tea ID",
+                            "sent": true,
+                            "startDate": "2021-02-19T14:43:09.000Z",
+                            "status": true
+                        },
+                        {
+                            "created_at": "2021-02-22T03:11:16.746Z",
+                            "deskripsi": "Ayam",
+                            "endDate": "2021-02-22T15:10:08.000Z",
+                            "favorite": null,
+                            "harga_diskon": 10000,
+                            "harga_normal": 15000,
+                            "id_iklan": 13,
+                            "id_makanan": "1613792665873",
+                            "id_merchant": 69,
+                            "jlhItems": 5,
+                            "nama_makanan": "Ayam Goreng",
+                            "nama_merchant": "Senja Tea ID",
+                            "startDate": "2021-02-22T03:10:08.000Z",
+                            "status": false,
+                            "terjual": "12"
+                        },
+                        {
+                            "created_at": "2021-02-22T09:28:44.673Z",
+                            "deskripsi": "Mie",
+                            "endDate": "2021-02-22T16:21:22.000Z",
+                            "favorite": true,
+                            "harga_diskon": 15000,
+                            "harga_normal": 25000,
+                            "id_iklan": 15,
+                            "id_makanan": "1613738576058",
+                            "id_merchant": 69,
+                            "jlhItems": 5,
+                            "nama_makanan": "Ifu Mie",
+                            "nama_merchant": "Senja Tea ID",
+                            "startDate": "2021-02-22T09:21:22.000Z",
+                            "status": false,
+                            "terjual": "5"
+                        },
+                        {
+                            "created_at": "2021-02-22T04:13:15.737Z",
+                            "deskripsi": "Mie",
+                            "endDate": "2021-02-22T15:53:17.000Z",
+                            "favorite": true,
+                            "harga_diskon": 15000,
+                            "harga_normal": 30000,
+                            "id_iklan": 14,
+                            "id_makanan": "1613738858074",
+                            "id_merchant": 69,
+                            "jlhItems": 5,
+                            "nama_makanan": "Mie Aceh",
+                            "nama_merchant": "Senja Tea ID",
+                            "startDate": "2021-02-22T11:53:17.000Z",
+                            "status": false,
+                            "terjual": "20"
+                        },
+                        {
+                            "created_at": "2021-02-22T10:29:42.614Z",
+                            "deskripsi": "Mie ",
+                            "endDate": "2021-02-22T16:25:16.000Z",
+                            "favorite": null,
+                            "harga_diskon": 10000,
+                            "harga_normal": 16000,
+                            "id_iklan": 16,
+                            "id_makanan": "1613737412555",
+                            "id_merchant": 69,
+                            "jlhItems": 10,
+                            "nama_makanan": "Mie Goreng",
+                            "nama_merchant": "Senja Tea ID",
+                            "startDate": "2021-02-22T10:25:16.000Z",
+                            "status": false,
+                            "terjual": "2"
+                        },
+                        {
+                            "alamat": "Griya Bandung Indah",
+                            "coordinate": {
+                                "x": -6.5503507,
+                                "y": 107.2361554
+                            },
+                            "createdAt": "2021-02-21T14:43:01.557Z",
+                            "email": "reziferdiansyah@gmail.com",
+                            "id": 70,
+                            "kategori": 2,
+                            "logo": "02_2021_Nl5RgwlwDG.jpg",
+                            "merchant_id": "LH1613918581480",
+                            "nama": "Bakery berkah",
+                            "password": null,
+                            "phone": "088229100123",
+                            "status": true,
+                            "token": null
+                        },
+                        {
+                            "alamat": "Batununggal",
+                            "coordinate": {
+                                "x": -6.9189309,
+                                "y": 107.6626118
+                            },
+                            "createdAt": "2021-02-22T14:26:08.794Z",
+                            "email": "reziferdiansyah23@gmail.com",
+                            "id": 71,
+                            "kategori": 2,
+                            "logo": "02_2021_EhjMIPjZC2.jpg",
+                            "merchant_id": "LH1614003968754",
+                            "nama": "Berkah Bakery",
+                            "password": null,
+                            "phone": "0883292343",
+                            "status": true,
+                            "token": null
+                        },
+                        {
+                            "alamat": "Buahbatu",
+                            "coordinate": {
+                                "x": -6.9461222,
+                                "y": 107.6354937
+                            },
+                            "createdAt": "2021-02-22T14:27:46.298Z",
+                            "email": "rezi2002@gmail.com",
+                            "id": 72,
+                            "kategori": 1,
+                            "logo": "02_2021_aC9hvpAhtW.jpg",
+                            "merchant_id": "LH1614004066268",
+                            "nama": "Nasi Goreng Berkah",
+                            "password": null,
+                            "phone": "08340932944",
+                            "status": true,
+                            "token": null
+                        },
+                        {
+                            "alamat": "JL. KARSA NO. 4 - A LK XI KARANG BEROMBAK MEDAN BARAT",
+                            "coordinate": {
+                                "x": -6.90642872828434,
+                                "y": 107.59429533900594
+                            },
+                            "createdAt": "2021-02-19T10:11:11.498Z",
+                            "email": "dwikiramadhan73@gmail.com",
+                            "id": 69,
+                            "kategori": 1,
+                            "logo": "02_2021_qGjTJjENpL.jpg",
+                            "merchant_id": "LH1613729471345",
+                            "nama": "Senja Tea ID",
+                            "password": "123",
+                            "phone": "085262611131",
+                            "status": true,
+                            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImR3aWtpcmFtYWRoYW43M0BnbWFpbC5jb20iLCJtZXJjaGFudF9pZCI6IkxIMTYxMzcyOTQ3MTM0NSIsIm5hbWEiOiJTZW5qYSBUZWEgSUQiLCJpZF9tZXJjaGFudCI6NjksImlhdCI6MTYxNDA3Mzk5MCwiZXhwIjoxNjE0MDg0NzkwfQ.EBQrV0wU4gy9_k29MzEFO_ICLS6o_M3MIkZieE6E2ck"
+                        }
+                    ]
+
+
+                    {
+                        "bakery": [],
+                        "restaurant": [
+                            {
+                                "alamat": "JL. KARSA NO. 4 - A LK XI KARANG BEROMBAK MEDAN BARAT",
+                                "coordinate": [Object
+                                ],
+                                "createdAt": "2021-02-19T10:29:03.395Z",
+                                "deskripsi": "Green Tea + Gula + Susu",
+                                "email": "dwikiramadhan73@gmail.com",
+                                "foto": null,
+                                "harga_asli": 8000,
+                                "id": 49,
+                                "id_makanan": "1613730543337",
+                                "id_merchant": 69,
+                                "kategori": 1,
+                                "logo": "02_2021_aC9hvpAhtW.jpg",
+                                "merchant_id": "LH1613729471345",
+                                "nama": "Green Tea",
+                                "password": "123",
+                                "phone": "085262611131",
+                                "status": false,
+                                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImR3aWtpcmFtYWRoYW43M0BnbWFpbC5jb20iLCJtZXJjaGFudF9pZCI6IkxIMTYxMzcyOTQ3MTM0NSIsIm5hbWEiOiJTZW5qYSBUZWEgSUQiLCJpZF9tZXJjaGFudCI6NjksImlhdCI6MTYxNDE0MDI5MywiZXhwIjoxNjE0MTUxMDkzfQ.hQuZN8r4yDY-ciRhH0bM7_zBm6yJ9jAyrJY9w9zAarM"
+                            },
+                            {
+                                "alamat": "JL. KARSA NO. 4 - A LK XI KARANG BEROMBAK MEDAN BARAT",
+                                "coordinate": [Object
+                                ],
+                                "createdAt": "2021-02-19T10:43:43.058Z",
+                                "deskripsi": "Bubble + susu",
+                                "email": "dwikiramadhan73@gmail.com",
+                                "foto": null,
+                                "harga_asli": 10000,
+                                "id": 51,
+                                "id_makanan": "1613731423003",
+                                "id_merchant": 69,
+                                "kategori": 1,
+                                "logo": "02_2021_aC9hvpAhtW.jpg",
+                                "merchant_id": "LH1613729471345",
+                                "nama": "Boba",
+                                "password": "123",
+                                "phone": "085262611131",
+                                "status": true,
+                                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImR3aWtpcmFtYWRoYW43M0BnbWFpbC5jb20iLCJtZXJjaGFudF9pZCI6IkxIMTYxMzcyOTQ3MTM0NSIsIm5hbWEiOiJTZW5qYSBUZWEgSUQiLCJpZF9tZXJjaGFudCI6NjksImlhdCI6MTYxNDE0MDI5MywiZXhwIjoxNjE0MTUxMDkzfQ.hQuZN8r4yDY-ciRhH0bM7_zBm6yJ9jAyrJY9w9zAarM"
+                            },
+                            {
+                                "alamat": "JL. KARSA NO. 4 - A LK XI KARANG BEROMBAK MEDAN BARAT",
+                                "coordinate": [Object
+                                ],
+                                "createdAt": "2021-02-19T12:02:30.533Z",
+                                "deskripsi": "Waw",
+                                "email": "dwikiramadhan73@gmail.com",
+                                "foto": null,
+                                "harga_asli": 10000,
+                                "id": 52,
+                                "id_makanan": "1613736150474",
+                                "id_merchant": 69,
+                                "kategori": 1,
+                                "logo": "02_2021_aC9hvpAhtW.jpg",
+                                "merchant_id": "LH1613729471345",
+                                "nama": "Buba",
+                                "password": "123",
+                                "phone": "085262611131",
+                                "status": false,
+                                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImR3aWtpcmFtYWRoYW43M0BnbWFpbC5jb20iLCJtZXJjaGFudF9pZCI6IkxIMTYxMzcyOTQ3MTM0NSIsIm5hbWEiOiJTZW5qYSBUZWEgSUQiLCJpZF9tZXJjaGFudCI6NjksImlhdCI6MTYxNDE0MDI5MywiZXhwIjoxNjE0MTUxMDkzfQ.hQuZN8r4yDY-ciRhH0bM7_zBm6yJ9jAyrJY9w9zAarM"
+                            },
+                            {
+                                "alamat": "JL. KARSA NO. 4 - A LK XI KARANG BEROMBAK MEDAN BARAT",
+                                "coordinate": [Object
+                                ],
+                                "createdAt": "2021-02-19T10:38:48.221Z",
+                                "deskripsi": "Thai Tea + Gula + Susu",
+                                "email": "dwikiramadhan73@gmail.com",
+                                "foto": null,
+                                "harga_asli": 8000,
+                                "id": 50,
+                                "id_makanan": "1613731128167",
+                                "id_merchant": 69,
+                                "kategori": 1,
+                                "logo": "02_2021_aC9hvpAhtW.jpg",
+                                "merchant_id": "LH1613729471345",
+                                "nama": "Thai Tea",
+                                "password": "123",
+                                "phone": "085262611131",
+                                "status": true,
+                                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImR3aWtpcmFtYWRoYW43M0BnbWFpbC5jb20iLCJtZXJjaGFudF9pZCI6IkxIMTYxMzcyOTQ3MTM0NSIsIm5hbWEiOiJTZW5qYSBUZWEgSUQiLCJpZF9tZXJjaGFudCI6NjksImlhdCI6MTYxNDE0MDI5MywiZXhwIjoxNjE0MTUxMDkzfQ.hQuZN8r4yDY-ciRhH0bM7_zBm6yJ9jAyrJY9w9zAarM"
+                            },
+                            {
+                                "alamat": "JL. KARSA NO. 4 - A LK XI KARANG BEROMBAK MEDAN BARAT",
+                                "coordinate": [Object
+                                ],
+                                "createdAt": "2021-02-19T12:19:29.004Z",
+                                "deskripsi": "RV + Susu",
+                                "email": "dwikiramadhan73@gmail.com",
+                                "foto": null,
+                                "harga_asli": 12000,
+                                "id": 53,
+                                "id_makanan": "1613737168950",
+                                "id_merchant": 69,
+                                "kategori": 1,
+                                "logo": "02_2021_aC9hvpAhtW.jpg",
+                                "merchant_id": "LH1613729471345",
+                                "nama": "Red Velvet",
+                                "password": "123",
+                                "phone": "085262611131",
+                                "status": false,
+                                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImR3aWtpcmFtYWRoYW43M0BnbWFpbC5jb20iLCJtZXJjaGFudF9pZCI6IkxIMTYxMzcyOTQ3MTM0NSIsIm5hbWEiOiJTZW5qYSBUZWEgSUQiLCJpZF9tZXJjaGFudCI6NjksImlhdCI6MTYxNDE0MDI5MywiZXhwIjoxNjE0MTUxMDkzfQ.hQuZN8r4yDY-ciRhH0bM7_zBm6yJ9jAyrJY9w9zAarM"
+                            },
+                            {
+                                "alamat": "JL. KARSA NO. 4 - A LK XI KARANG BEROMBAK MEDAN BARAT",
+                                "coordinate": [Object
+                                ],
+                                "createdAt": "2021-02-19T12:22:25.986Z",
+                                "deskripsi": "Ayam jamur",
+                                "email": "dwikiramadhan73@gmail.com",
+                                "foto": null,
+                                "harga_asli": 15000,
+                                "id": 54,
+                                "id_makanan": "1613737345923",
+                                "id_merchant": 69,
+                                "kategori": 1,
+                                "logo": "02_2021_aC9hvpAhtW.jpg",
+                                "merchant_id": "LH1613729471345",
+                                "nama": "Mie Ayam",
+                                "password": "123",
+                                "phone": "085262611131",
+                                "status": false,
+                                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImR3aWtpcmFtYWRoYW43M0BnbWFpbC5jb20iLCJtZXJjaGFudF9pZCI6IkxIMTYxMzcyOTQ3MTM0NSIsIm5hbWEiOiJTZW5qYSBUZWEgSUQiLCJpZF9tZXJjaGFudCI6NjksImlhdCI6MTYxNDE0MDI5MywiZXhwIjoxNjE0MTUxMDkzfQ.hQuZN8r4yDY-ciRhH0bM7_zBm6yJ9jAyrJY9w9zAarM"
+                            },
+                            {
+                                "alamat": "JL. KARSA NO. 4 - A LK XI KARANG BEROMBAK MEDAN BARAT",
+                                "coordinate": [Object
+                                ],
+                                "createdAt": "2021-02-19T12:22:58.219Z",
+                                "deskripsi": "Nasi",
+                                "email": "dwikiramadhan73@gmail.com",
+                                "foto": null,
+                                "harga_asli": 12000,
+                                "id": 55,
+                                "id_makanan": "1613737378162",
+                                "id_merchant": 69,
+                                "kategori": 1,
+                                "logo": "02_2021_aC9hvpAhtW.jpg",
+                                "merchant_id": "LH1613729471345",
+                                "nama": "Nasi Goreng",
+                                "password": "123",
+                                "phone": "085262611131",
+                                "status": false,
+                                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImR3aWtpcmFtYWRoYW43M0BnbWFpbC5jb20iLCJtZXJjaGFudF9pZCI6IkxIMTYxMzcyOTQ3MTM0NSIsIm5hbWEiOiJTZW5qYSBUZWEgSUQiLCJpZF9tZXJjaGFudCI6NjksImlhdCI6MTYxNDE0MDI5MywiZXhwIjoxNjE0MTUxMDkzfQ.hQuZN8r4yDY-ciRhH0bM7_zBm6yJ9jAyrJY9w9zAarM"
+                            },
+                            {
+                                "alamat": "JL. KARSA NO. 4 - A LK XI KARANG BEROMBAK MEDAN BARAT",
+                                "coordinate": [Object
+                                ],
+                                "createdAt": "2021-02-19T12:23:32.610Z",
+                                "deskripsi": "Mie ",
+                                "email": "dwikiramadhan73@gmail.com",
+                                "foto": null,
+                                "harga_asli": 16000,
+                                "id": 56,
+                                "id_makanan": "1613737412555",
+                                "id_merchant": 69,
+                                "kategori": 1,
+                                "logo": "02_2021_aC9hvpAhtW.jpg",
+                                "merchant_id": "LH1613729471345",
+                                "nama": "Mie Goreng",
+                                "password": "123",
+                                "phone": "085262611131",
+                                "status": true,
+                                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImR3aWtpcmFtYWRoYW43M0BnbWFpbC5jb20iLCJtZXJjaGFudF9pZCI6IkxIMTYxMzcyOTQ3MTM0NSIsIm5hbWEiOiJTZW5qYSBUZWEgSUQiLCJpZF9tZXJjaGFudCI6NjksImlhdCI6MTYxNDE0MDI5MywiZXhwIjoxNjE0MTUxMDkzfQ.hQuZN8r4yDY-ciRhH0bM7_zBm6yJ9jAyrJY9w9zAarM"
+                            },
+                            {
+                                "alamat": "JL. KARSA NO. 4 - A LK XI KARANG BEROMBAK MEDAN BARAT",
+                                "coordinate": [Object
+                                ],
+                                "createdAt": "2021-02-19T12:47:38.129Z",
+                                "deskripsi": "Mie",
+                                "email": "dwikiramadhan73@gmail.com",
+                                "foto": null,
+                                "harga_asli": 30000,
+                                "id": 58,
+                                "id_makanan": "1613738858074",
+                                "id_merchant": 69,
+                                "kategori": 1,
+                                "logo": "02_2021_aC9hvpAhtW.jpg",
+                                "merchant_id": "LH1613729471345",
+                                "nama": "Mie Aceh",
+                                "password": "123",
+                                "phone": "085262611131",
+                                "status": true,
+                                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImR3aWtpcmFtYWRoYW43M0BnbWFpbC5jb20iLCJtZXJjaGFudF9pZCI6IkxIMTYxMzcyOTQ3MTM0NSIsIm5hbWEiOiJTZW5qYSBUZWEgSUQiLCJpZF9tZXJjaGFudCI6NjksImlhdCI6MTYxNDE0MDI5MywiZXhwIjoxNjE0MTUxMDkzfQ.hQuZN8r4yDY-ciRhH0bM7_zBm6yJ9jAyrJY9w9zAarM"
+                            },
+                            {
+                                "alamat": "JL. KARSA NO. 4 - A LK XI KARANG BEROMBAK MEDAN BARAT",
+                                "coordinate": [Object
+                                ],
+                                "createdAt": "2021-02-20T03:44:25.982Z",
+                                "deskripsi": "Ayam",
+                                "email": "dwikiramadhan73@gmail.com",
+                                "foto": null,
+                                "harga_asli": 15000,
+                                "id": 59,
+                                "id_makanan": "1613792665873",
+                                "id_merchant": 69,
+                                "kategori": 1,
+                                "logo": "02_2021_aC9hvpAhtW.jpg",
+                                "merchant_id": "LH1613729471345",
+                                "nama": "Ayam Goreng",
+                                "password": "123",
+                                "phone": "085262611131",
+                                "status": true,
+                                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImR3aWtpcmFtYWRoYW43M0BnbWFpbC5jb20iLCJtZXJjaGFudF9pZCI6IkxIMTYxMzcyOTQ3MTM0NSIsIm5hbWEiOiJTZW5qYSBUZWEgSUQiLCJpZF9tZXJjaGFudCI6NjksImlhdCI6MTYxNDE0MDI5MywiZXhwIjoxNjE0MTUxMDkzfQ.hQuZN8r4yDY-ciRhH0bM7_zBm6yJ9jAyrJY9w9zAarM"
+                            },
+                            {
+                                "alamat": "JL. KARSA NO. 4 - A LK XI KARANG BEROMBAK MEDAN BARAT",
+                                "coordinate": [Object
+                                ],
+                                "createdAt": "2021-02-19T12:42:56.113Z",
+                                "deskripsi": "Mie",
+                                "email": "dwikiramadhan73@gmail.com",
+                                "foto": null,
+                                "harga_asli": 25000,
+                                "id": 57,
+                                "id_makanan": "1613738576058",
+                                "id_merchant": 69,
+                                "kategori": 1,
+                                "logo": "02_2021_aC9hvpAhtW.jpg",
+                                "merchant_id": "LH1613729471345",
+                                "nama": "Ifu Mie",
+                                "password": "123",
+                                "phone": "085262611131",
+                                "status": true,
+                                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImR3aWtpcmFtYWRoYW43M0BnbWFpbC5jb20iLCJtZXJjaGFudF9pZCI6IkxIMTYxMzcyOTQ3MTM0NSIsIm5hbWEiOiJTZW5qYSBUZWEgSUQiLCJpZF9tZXJjaGFudCI6NjksImlhdCI6MTYxNDE0MDI5MywiZXhwIjoxNjE0MTUxMDkzfQ.hQuZN8r4yDY-ciRhH0bM7_zBm6yJ9jAyrJY9w9zAarM"
+                            },
+                            {
+                                "alamat": "JL. KARSA NO. 4 - A LK XI KARANG BEROMBAK MEDAN BARAT",
+                                "coordinate": [Object
+                                ],
+                                "createdAt": "2021-02-22T13:06:03.951Z",
+                                "deskripsi": "Bakaran",
+                                "email": "dwikiramadhan73@gmail.com",
+                                "foto": "02_2021_31Kbiaqx5u.jpg",
+                                "harga_asli": 25000,
+                                "id": 60,
+                                "id_makanan": "1613999163945",
+                                "id_merchant": 69,
+                                "kategori": 1,
+                                "logo": "02_2021_aC9hvpAhtW.jpg",
+                                "merchant_id": "LH1613729471345",
+                                "nama": "Ayam Bakar",
+                                "password": "123",
+                                "phone": "085262611131",
+                                "status": false,
+                                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImR3aWtpcmFtYWRoYW43M0BnbWFpbC5jb20iLCJtZXJjaGFudF9pZCI6IkxIMTYxMzcyOTQ3MTM0NSIsIm5hbWEiOiJTZW5qYSBUZWEgSUQiLCJpZF9tZXJjaGFudCI6NjksImlhdCI6MTYxNDE0MDI5MywiZXhwIjoxNjE0MTUxMDkzfQ.hQuZN8r4yDY-ciRhH0bM7_zBm6yJ9jAyrJY9w9zAarM"
+                            }
+                        ]
+                    }
+                    // import React, { Component } from 'react';
+                    // import { Alert, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+                    // import MapView, { Marker } from 'react-native-maps'
+                    // export default class App extends Component {
+                    //   constructor(props) {
+                    //     super(props);
+                    //     this.state = {
+                    //       location: null,
+                    //       latitude: 0,
+                    //       longitude: 0,
+                    //       error: null
+                    //     };
+                    //   }
+                    //   // componentDidMount() {
+                    //   //   navigator.geolocation.getCurrentPosition(position => {
+                    //   //     this.setState({
+                    //   //       latitude: position.coords.latitude,
+                    //   //       longitude: position.coords.longitude,
+                    //   //       error: null
+                    //   //     })
+                    //   //   },
+                    //   //     error => this.setState({ error: error.message }),
+                    //   //     { enableHighAccuracy: true, timeout: 20000, maximumAge: 2000 }
+                    //   //   );
+                    //   // }
+                    //   findCoordinates = () => {
+                    //     console.log('okay')
+                    //     // navigator.geolocation.getCurrentPosition(
+                    //     //   position => {
+                    //     //     const location = JSON.stringify(position);
+                    //     //     this.setState({ location });
+                    //     //   },
+                    //     //   error => Alert.alert(error.message),
+                    //     //   { enableHighAccuracy: true, timeout: 20000, maximumAge: 1000 }
+                    //     // );
+                    //   };
+                    //   render() {
+                    //     // navigator.geolocation.getCurrentPosition(
+                    //     //   geo_success,
+                    //     //   [geo_error],
+                    //     //   [geo_options]
+                    //     // );
+                    //     return (
+                    //       <View style={styles.container}>
+                    //         <MapView
+                    //           style={styles.map}
+                    //           region={{
+                    //             latitude: 37.78825,
+                    //             longitude: -122.4324,
+                    //             latitudeDelta: 0.015,
+                    //             longitudeDelta: 0.0121
+                    //           }}>
+                    //           <Marker coordinate={this.state} />
+                    //         </MapView>
+                    //       </View>
+                    //       // <View style={styles.container}>
+                    //       //   <TouchableOpacity onPress={this.findCoordinates}>
+                    //       //     <Text style={styles.welcome}>Find My Coords?</Text>
+                    //       //     <Text>Location: {this.state.location}</Text>
+                    //       //   </TouchableOpacity>
+                    //       // </View>
+                    //     );
+                    //   }
+                    // }
+                    // const styles = StyleSheet.create({
+                    //   container: {
+                    //     flex: 1,
+                    //     justifyContent: 'center',
+                    //     alignItems: 'center',
+                    //     backgroundColor: '#F5FCFF'
+                    //   },
+                    //   map: {
+                    //     width:'100%',
+                    //     height:'100%',
+                    //     fontSize: 20,
+                    //     textAlign: 'center',
+                    //     margin: 10
+                    //   }
+                    // })
+                    [
+                        {
+                            "alamat": "JL. KARSA NO. 4 - A LK XI KARANG BEROMBAK MEDAN BARAT",
+                            "created_at": "2021-02-25T00:19:10.160Z",
+                            "deskripsi": "Mie",
+                            "endDate": "2021-02-25T16:08:23.000Z",
+                            "favorite": null,
+                            "foto": null,
+                            "harga_diskon": 15000,
+                            "harga_normal": 30000,
+                            "id_favorite": null,
+                            "id_iklan": 27,
+                            "id_makanan": "1613738858074",
+                            "id_merchant": 69,
+                            "jlhItems": 9,
+                            "logo": "02_2021_aC9hvpAhtW.jpg",
+                            "nama_makanan": "Mie Aceh",
+                            "nama_merchant": "Senja Tea ID",
+                            "startDate": "2021-02-25T00:08:23.000Z",
+                            "status": false,
+                            "terjual": null,
+                            "token_uid": ""
+                        },
+                        {
+                            "alamat": "JL. KARSA NO. 4 - A LK XI KARANG BEROMBAK MEDAN BARAT",
+                            "created_at": "2021-02-25T00:17:42.366Z",
+                            "deskripsi": "Ayam",
+                            "endDate": "2021-02-25T15:08:23.000Z",
+                            "favorite": null,
+                            "foto": null,
+                            "harga_diskon": 7000,
+                            "harga_normal": 15000,
+                            "id_favorite": null,
+                            "id_iklan": 26,
+                            "id_makanan": "1613792665873",
+                            "id_merchant": 69,
+                            "jlhItems": 8,
+                            "logo": "02_2021_aC9hvpAhtW.jpg",
+                            "nama_makanan": "Ayam Goreng",
+                            "nama_merchant": "Senja Tea ID",
+                            "startDate": "2021-02-25T00:08:23.000Z",
+                            "status": false,
+                            "terjual": null,
+                            "token_uid": ""
+                        },
+                        {
+                            "alamat": "JL. KARSA NO. 4 - A LK XI KARANG BEROMBAK MEDAN BARAT",
+                            "created_at": "2021-02-25T00:16:04.271Z",
+                            "deskripsi": "Bakaran",
+                            "endDate": "2021-02-25T15:08:23.000Z",
+                            "favorite": null,
+                            "foto": "02_2021_31Kbiaqx5u.jpg",
+                            "harga_diskon": 10000,
+                            "harga_normal": 25000,
+                            "id_favorite": null,
+                            "id_iklan": 25,
+                            "id_makanan": "1613999163945",
+                            "id_merchant": 69,
+                            "jlhItems": 10,
+                            "logo": "02_2021_aC9hvpAhtW.jpg",
+                            "nama_makanan": "Ayam Bakar",
+                            "nama_merchant": "Senja Tea ID",
+                            "startDate": "2021-02-25T00:08:23.000Z",
+                            "status": false,
+                            "terjual": null,
+                            "token_uid": ""
+                        }
+                    ]
+
+
+                    {
+                        "alamat": "JL. KARSA NO. 4 - A LK XI KARANG BEROMBAK MEDAN BARAT",
+                        "deskripsi": "Ayam",
+                        "endDate": "2021-02-25T15:08:23.000Z",
+                        "favorite": null,
+                        "foto": null,
+                        "harga_asli": 15000,
+                        "harga_diskon": 7000,
+                        "idFav": null,
+                        "id_iklan": 26,
+                        "id_makanan": "1613792665873",
+                        "id_merchant": 69,
+                        "jlhItem": 8,
+                        "logo": "02_2021_aC9hvpAhtW.jpg",
+                        "nama_makanan": "Ayam Goreng",
+                        "nama_merchant": "Senja Tea ID",
+                        "startDate": "2021-02-25T00:08:23.000Z",
+                        "terjual": "3",
+                        "token": "dsTaflq6RkOnc3Pezrv9jH:APA91bHNeo7SVYauA_k3HH8rZFyOvijuCAeDnUPh0YF1DywnW6uYXss0KR5hXNr_rovvAqzqziwL7s12JuLi6gps5-dsOQ2SeVd0cC7zeXf5PUKGAxJm4uilOZ1bFR7Q-T0tdIv8ZyZS"
+                    }
+                      {
+                        "alamat": "JL. KARSA NO. 4 - A LK XI KARANG BEROMBAK MEDAN BARAT",
+                        "deskripsi": "Bakaran",
+                        "endDate": "2021-02-25T15:08:23.000Z",
+                        "favorite": null,
+                        "foto": "02_2021_31Kbiaqx5u.jpg",
+                        "harga_asli": 25000,
+                        "harga_diskon": 10000,
+                        "idFav": null,
+                        "id_iklan": 25,
+                        "id_makanan": "1613999163945",
+                        "id_merchant": 69,
+                        "jlhItem": 10,
+                        "logo": "02_2021_aC9hvpAhtW.jpg",
+                        "nama_makanan": "Ayam Bakar",
+                        "nama_merchant": "Senja Tea ID",
+                        "startDate": "2021-02-25T00:08:23.000Z",
+                        "terjual": "1",
+                        "token": "dsTaflq6RkOnc3Pezrv9jH:APA91bHNeo7SVYauA_k3HH8rZFyOvijuCAeDnUPh0YF1DywnW6uYXss0KR5hXNr_rovvAqzqziwL7s12JuLi6gps5-dsOQ2SeVd0cC7zeXf5PUKGAxJm4uilOZ1bFR7Q-T0tdIv8ZyZS"
+                    }
+                ]  {
+                    "alamat": "JL. GRIYA BANDUNG INDAH RT04/05",
+                    "deskripsi": "Bubble",
+                    "endDate": "2021-02-25T16:50:10.000Z",
+                    "favorite": true,
+                    "foto": "02_2021_EkFpBfSpFJ.jpg",
+                    "harga_asli": 25000,
+                    "harga_diskon": 15000,
+                    "idFav": "1614247116559",
+                    "id_iklan": 28,
+                    "id_makanan": "1614221447745",
+                    "id_merchant": 70,
+                    "jlhItem": 10,
+                    "logo": "02_2021_Nl5RgwlwDG.jpg",
+                    "nama_makanan": "Boba",
+                    "nama_merchant": "Jco Berkah",
+                    "startDate": "2021-02-25T02:50:10.000Z",
+                    "terjual": "6",
+                    "token": "cbHVbNGTSvqwRlaNCulwkL:APA91bG5jdjJ0Mn_Ho6sShzCPsjMBIPsram3p1KpJZR7dFV9LKaSx_j4ObBLTMxc9Lh4gydpOzgStFN6h7pYz3iXQLOZ8UWNFSq89nzdjrw6MFUpu7-vS0-mYBG_iyldb514wzdft-CU"
+                }
+
+                    [
+                    {
+                        "createdAt": "2021-02-20T03:44:25.982Z",
+                        "deskripsi": "Ayam",
+                        "foto": null,
+                        "harga_asli": 15000,
+                        "id": 59,
+                        "id_makanan": "1613792665873",
+                        "id_merchant": 69,
+                        "nama": "Ayam Goreng",
+                        "status": true
+                    },
+                    {
+                        "createdAt": "2021-02-19T12:23:32.610Z",
+                        "deskripsi": "Mie ",
+                        "foto": null,
+                        "harga_asli": 16000,
+                        "id": 56,
+                        "id_makanan": "1613737412555",
+                        "id_merchant": 69,
+                        "nama": "Mie Goreng",
+                        "status": true
+                    },
+                    {
+                        "createdAt": "2021-02-19T12:22:58.219Z",
+                        "deskripsi": "Nasi",
+                        "foto": null,
+                        "harga_asli": 12000,
+                        "id": 55,
+                        "id_makanan": "1613737378162",
+                        "id_merchant": 69,
+                        "nama": "Nasi Goreng",
+                        "status": true
+                    },
+                    {
+                        "createdAt": "2021-02-19T10:38:48.221Z",
+                        "deskripsi": "Thai Tea + Gula + Susu",
+                        "foto": "02_2021_edFMPRtr1w.jpg",
+                        "harga_asli": 8000,
+                        "id": 50,
+                        "id_makanan": "1613731128167",
+                        "id_merchant": 69,
+                        "nama": "Thai Tea",
+                        "status": true
+                    }
+                ]
+
+                "key": "Order-V3hPcRcY2gs-x2lCIAcdX",
+                "name": "Order",
+                "params": {
+                    "alamat": "JL. KARSA NO. 4 - A LK XI KARANG BEROMBAK MEDAN BARAT",
+                    "deskripsi": "Ayam",
+                    "endDate": "2021-02-25T15:08:23.000Z",
+                    "favorite": null,
+                    "foto": null,
+                    "harga_asli": 15000,
+                    "harga_diskon": 7000,
+                    "idFav": null,
+                    "id_iklan": 26,
+                    "id_makanan": "1613792665873",
+                    "id_merchant": 69,
+                    "jlhItem": 8,
+                    "logo": "02_2021_aC9hvpAhtW.jpg",
+                    "nama_makanan": "Ayam Goreng",
+                    "nama_merchant": "Senja Tea ID",
+                    "startDate": "2021-02-25T00:08:23.000Z",
+                    "terjual": "7",
+                    "token": "dkBQAoAWR92NMMA2wOurBN:APA91bGu3UrCt3TYmx072tv-8PryEXH-g54hTZaQ7l3w4jxyk1DvNKaDmYE9PNU2FOgB8UH2689Cp8wJjPMtBCIiOE5kfFgjFzZX8k_szazrszAF6IiGFVBYfJSDH3Z-XiJcSOY7iHmR"
+                }
+            }
