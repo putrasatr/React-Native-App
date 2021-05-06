@@ -13,7 +13,7 @@ import logos from "../../assets/logo/default.png";
 import * as COLOR from "../../assets/color/ColorTemp"
 import { ScrollView } from 'react-native-gesture-handler';
 import { searchData } from '../../actions/menu';
-
+import {API_URL} from '../../config/constant'
 
 function SearchPageScreen() {
     const [search, onChangeText] = React.useState('');
@@ -29,7 +29,7 @@ function SearchPageScreen() {
         const navigation = useNavigation()
 
         const { logo, nama, id } = props
-        const LogoMerchant = logo ? { uri: 'http://192.168.1.97:3001/images/uploads/' + logo } : logos
+        const LogoMerchant = logo ? { uri: `${API_URL}images/uploads/` + logo } : logos
 
         return (
             <>
@@ -43,7 +43,7 @@ function SearchPageScreen() {
     }
     function Menu(props) {
         const { nama, foto, harga_asli } = props
-        const fotoMenu = foto ? { uri: 'http://192.168.1.97:3001/images/uploads/' + foto } : logos
+        const fotoMenu = foto ? { uri: `${API_URL}images/uploads/` + foto } : logos
 
         return (
             <View

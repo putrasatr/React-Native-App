@@ -29,7 +29,7 @@ export default function MerchantAll() {
     function AllRestaurant() {
 
         return restaurant.map((item, index) => {
-            const foodImage = item.logo ? { uri: 'http://192.168.1.97:3001/images/uploads/' + item.logo } : defaultImg
+            const foodImage = item.logo ? { uri: `${API_URL}images/uploads/` + item.logo } : defaultImg
             return (
                 <TouchableWithoutFeedback
                     onPress={() => navigation.navigate('Merchant', item.id)}>
@@ -52,7 +52,7 @@ export default function MerchantAll() {
     function AllBakery() {
 
         return bakery.map((item, index) => {
-            const foodImage = item.logo ? { uri: 'http://192.168.1.97:3001/images/uploads/' + item.logo } : defaultImg
+            const foodImage = item.logo ? { uri:  `${API_URL}images/uploads/` + item.logo } : defaultImg
             return (
                 <TouchableWithoutFeedback
                     onPress={() => navigation.navigate('Merchant', item.id)}>
