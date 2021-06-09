@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import AsyncStorage from '@react-native-community/async-storage';
-
 import Login from '../../views/containers/LoginRegister/Login';
 import Register from '../../views/containers/LoginRegister/Register';
 import Router from '../Router';

@@ -129,16 +129,13 @@ function* login(payload) {
     try {
         const data = yield call(postLogin, `${PATH}/member/login`, { email, password })
         const token = data.token
-        if (data.msg === 'not exist') {
-            yield put(actions.loginFailure(data.msg))
-        } else {
-            storeData(token)
-            yield put(actions.loginSuccess(data.data))
-            navigation.reset({
-                index: 0,
-                routes: [{ name: 'Tab Navigator' }],
-            })
-        }
+        if (data.msg === 'not exist') return yield put(actions.loginFailure(data.msg))
+        storeData(token)
+        yield put(actions.loginSuccess(data.data))
+        navigation.reset({
+            index: 0,
+            routes: [{ name: 'Tab Navigator' }],
+        })
     } catch (error) {
         console.log(error)
         yield put(actions.loginFailure(email))
