@@ -1,5 +1,5 @@
 import { all, takeEvery, put, call } from 'redux-saga/effects';
-import { storeData, removeToken } from '../../helpers/AsyncStorage';
+import { storeData, removeToken } from '../../../helpers/AsyncStorage';
 import request from '../../actions/connect';
 import * as actions from '../../actions/menu';
 
