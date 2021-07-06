@@ -11,8 +11,23 @@ import image from "../../../assets/logo/default.png"
 import numToRupiah from "../../components/numTorupiah/NumToRupiah"
 
 export default function FavoriteItem(props) {
-    const dispatch = useDispatch()
-    const navigation = useNavigation()
+    useEffect(() => {
+        dispatch(getLoadingDone(true))
+        AsyncStorage.getItem('Auth')
+            .then((value) => {
+                if (value) {
+                    const { idSekolah } = JwtDecode(value)
+                    return new Promise(resolve => {
+                        resolve(idSekolah)
+                    })
+                }
+            }).then((res) => {
+                dispatch(getERaport(res))
+            })
+        return () => {
+
+        }
+    }, [AsyncStorage])
 
     const id = useSelector(state => state.favorite.data)
     const { nama_merchant,
@@ -28,7 +43,7 @@ export default function FavoriteItem(props) {
         id_makanan,
         id_merchant, favorite
     } = props
-    
+
     const [isClicked, onClick] = React.useState({ value: favorite, size: 25 });
     const idMember = useSelector(state => state.member.data[0].id)
 
@@ -40,7 +55,7 @@ export default function FavoriteItem(props) {
     const handleFavorite = () => {
         onClick({ value: isClicked.value, size: 25 })
         if (isClicked.value) {
-            dispatch(addFavorite(id_iklan, id_makanan, idMember, id_merchant),[dispatch,isClicked.value ])
+            dispatch(addFavorite(id_iklan, id_makanan, idMember, id_merchant), [dispatch, isClicked.value])
             setTimeout(() => { dispatch(loadMenu(11)), dispatch(loadFavorite(idMember)) }, 500);
         } else {
             dispatch(deleteFavorite(idFav ? idFav : id.id_favorite))
