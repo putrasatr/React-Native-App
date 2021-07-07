@@ -1,0 +1,7 @@
+export const GET_MENU = "GET_MENU"
+export const LOGIN = "LOGIN"
+export const LOADING = "LOADING"
+export const GET_MERCHANT = "GET_MERCHANT"
+export const GET_USER_DATA = "GET_USER_DATA"
+export const GET_FAVORITE = "GET_FAVORITE"
+export const POST_FAVORITE = "POST_FAVORITE"
